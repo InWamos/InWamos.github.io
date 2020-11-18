@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "uk">
+    <head>
+        <link rel="shortcut icon" href="https://www.icohotlist.com/wp-content/themes/mediaani-framework/assets/images/logo-icohotlist.svg" type="image/png">
+        <meta charset="utf-8">
+        <title>AutoMag</title>
+        <style>
+            body {
+             background: rgb(29, 29, 29); 
+             color: rgb(182, 8, 8); 
+            }
+           </style>
+    </head>
+    <body>
+        >
+        <h1><strong>2021 Dodge Challenger SRT Hellcat</strong> </h1>
+        <h3>STARTING AT <strong><span style="color:green">$28,095</span></strong> <a href=""></a></h3>
+        <a href ="https://www.dodge.com/bmo.challenger.2020.html#/build/exterior/10001/CUD202003LADH22A/2DA/APA,PBM,X9,ERB,DFW,TSG,WK1,L8,UAG,2EA,DMM" title="Dodge Builder"> <img src="https://www.training-hipaa.net/wp-content/uploads/2019/02/BuyNow.png"width="100" height="35" alt="BuyNow"></a>
+        <ul>
+            <li>RWD</li>
+            <li>8 speed automatic gear box</li>
+            <li>3.6 V6(309hp)</li>
+        </ul>
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-dodge-challenger-srt-hellcat-109-1593640224.jpg" width="600" height="400">
+        
+    </body>
+</html>
