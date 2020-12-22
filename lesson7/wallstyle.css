@@ -1,0 +1,112 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.content {
+    float: left;
+    overflow: hidden;
+}
+
+.content .button {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .content:hover .button {
+    background-color:#640032 ;
+}
+
+.list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.list a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    
+}
+button{
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.list a:hover {
+    background-color:#640032;
+    color:white;
+}
+
+.content:hover .list {
+    display: block;
+}
+.bigBlock{
+    text-align: center;
+    font-family: italic;
+    background-color:#8b006e;
+    width: auto;
+    height:auto;
+    overflow:hidden;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    flex-wrap:wrap;
+}
+.allPic{
+    padding:.5vw;
+    overflow:none;   
+    width:auto;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-flow: row wrap;
+    display:flex;
+
+}
+.allPic div {
+    flex:auto;
+    width: 237px;
+    margin:.5vw;
+}
+.allPic div img{
+    width: 100%;
+    height: auto;
+}
+
+
