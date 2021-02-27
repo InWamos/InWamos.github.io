@@ -1,0 +1,63 @@
+//(Функция min(a, b))
+function lessNumber(a , b) {
+	if(a > b){	
+		return (b);
+	}else if(a < b){
+	return (a);
+	}else if(a === b){
+		return ("a = b")
+	}else{
+		return("Uncorrect function argument")
+	}
+}
+//(Функция pow(x,n))
+function pow(x , y){
+	
+	let result = x;
+	for(let i = 0; y > i; i++){
+		result *= x;
+	}
+	return result;
+}
+//(Проверка на пустоту)
+let schedule = {}
+
+function isEmpty(objectName){
+	if(Object.keys(objectName)[0] == undefined){
+		return true;
+	}else if(Object.keys(objectName)[0] !== undefined){
+		return false;
+	}
+}
+//Это сделал полностью сам(Сумма свойств объекта)
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+
+function summary(objName){
+	let sum = 0;
+	let size = Object.keys(objName).length;
+	for(let i = 0; i < size; i++){
+		sum += Object.values(objName)[i]	
+	} 
+	return sum;
+}
+
+//Это так и не смог сделать сам, но пытался(Умножаем все числовые свойства на 2)
+
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+function multiplication(objName , number){
+	let size = Object.getOwnPropertyNames(objName).length;
+	for(let i = 0; i < size; i++){
+		console.log(objName + "." + Object.getOwnPropertyNames(objName)[i]) *= number;
+	}
+	return objName;
+}
