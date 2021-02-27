@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Site</title>
+	<script>
+		let nickName = undefined;
+
+	function signUp(){	
+		if(userName.value.length < 4){
+			alert("Nick name must include 4 or more characters")
+		} else if (userName.value.length > 16){
+		alert("Your nickname is too long(max 16 characters)")
+		} else {
+			nickName = document.getElementById("userName").value;
+			document.getElementById("topText").innerHTML = "Hello, " + nickName;
+			alert("Hello " + userName.value)
+		}
+	}
+	function signIn(){
+		if(nickName == undefined){
+			alert("First you need to Sign up")
+		} else {
+			alert(nickName + ", " + "you are successfully signed in!" )
+		}
+	}
+	</script>
+</head>
+<body>
+	<h1 id="topText">it looks like you not signed up</h1>
+	<button onclick="signIn()">Sign In</button> 
+	<button onclick="signUp()">Sign Up</button>	
+	<p><input type="text" placeholder="Insert your nickname" value="" id="userName"/></p>
+</body>
+</html>
